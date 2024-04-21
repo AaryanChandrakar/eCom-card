@@ -49,9 +49,24 @@ body {
 
   .card{
     width: 400px;
-    height: 520px;
+    /* height: 520px; */
     position: absolute;
     background-image: linear-gradient(148deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
     backdrop-filter: blur(10px);
     border-radius: 10px;
+
+    flex-flow: column;
+  }
+
+  .card-area{
+    border: solid white 1px;
+    margin: 4%;
+    border-radius: 10px;
+  }
+
+  .card-image img{
+    max-width: 400px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
