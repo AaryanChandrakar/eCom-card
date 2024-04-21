@@ -37,14 +37,14 @@ body {
   .circle-2 {
     height: 360px;
     width: 360px;
-    background-image: radial-gradient(63.76% 63.76% at 50% 50%, #ff00c7 0%, #bd95ff 0.01%, #a661ff 32.29%, #6100ff 98.59% );
+    background-image: radial-gradient(63.76% 63.76% at 50% 50%, #ea8bfa 0%, #7526f5 100% );
     left: 20%;
   }
 
   .circle-3 {
     height: 220px;
     width: 220px;
-    background-image: radial-gradient( 67.47% 67.47% at 50% 50%, #fed0ff 0%, #7f00ff 100% );
+    background-image: radial-gradient( 67.47% 67.47% at 50% 50%, #ff00c7 0%, #bd95ff 0.01%, #a661ff 32.29%, #6100ff 98.59% );
     left: -10%;
   }
 
@@ -57,7 +57,6 @@ body {
     border-radius: 10px;
 
     flex-flow: column;
-    /* align-content: space-evenly; */
   }
 
   .card-area{
@@ -81,7 +80,6 @@ body {
 
   .card-content{
     padding: 5%;
-    gap: 5%;
   }
 
   .beginer {
@@ -90,3 +88,19 @@ body {
     border-radius: 5px;
     background: rgba(241, 198, 68, 0.24);
   }
+
+.card-rating{
+  display: flex;
+  gap: 3%;
+  font-size: 14px;
+}
+
+.card-button{
+  display: flex;
+  gap: 2%;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  padding-block: 7%;
+  border-top: 0.744px solid rgba(255, 255, 255, 0.3);
+}
